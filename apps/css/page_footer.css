@@ -1,0 +1,223 @@
+html {
+  scroll-behavior: smooth;
+}
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Century Gothic';
+}
+@font-face {
+    font-family: Aylogri;
+    src: url(fonts/Aylogri.ttf);
+    font-family: 'Edwardian Script ITC';
+    src: url(fonts/ITCEDSCR.ttf);
+    font-family: 'Century Gothic';
+    src: url(fonts/GOTHIC_0.TFF);
+}
+.tombol{
+width:150px;
+height:50px;
+border:solid 5px #F5B193;
+border-radius:10px;
+margin:2px 2px 2px 2px;
+padding:2px 2px 2px 2px;
+color:#F5B193;
+background-color:black;
+font:20px bold 'Century Gothic';
+transition:2s;
+duration:2s;
+}
+.tombol:hover{
+border-radius:10px;
+color:black;
+background-color:#F5B193;
+transition:2s;
+duration:2s;
+border:dotted 5px black;
+}
+div.fullWidth {
+  width: 100%;
+}
+.lingkaran
+{
+	padding-left: 325px;
+	padding-right: 325px;
+}
+.lingkaran a
+{
+	text-decoration: none;
+
+}
+.lingkaran1{
+	color: #F5B193;
+	width: 80px;
+	height: 80px;
+	background: black;
+	border-radius: 50%;
+}
+.lingkaran1:hover{
+	color: black;
+	width: 80px;
+	height: 80px;
+	background: #F5B193;
+	border-radius: 50%;
+}
+
+.body-content
+{
+	width: 100%;
+	padding: 20px;
+	text-align: justify;
+	box-sizing: border-box;
+	font-size: 18px;
+	line-height: 40px;
+}
+.footer
+{
+	width: 100%;
+	background: #F5B193;
+	display: block;
+	height: 229px;
+}
+.inner-footer
+{
+	width: 99%;
+	margin: auto;
+	padding: 0px 20px;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	justify-content: center;
+
+}
+.footer-items
+{
+	width: 19.8%;
+	padding: 10px 0px;
+	box-sizing: border-box;
+}
+.footer-items1
+{
+	width: 33.8%;
+	padding: 10px 0px;
+	box-sizing: border-box;	
+}
+.footer-items2
+{
+	width: 5.8%;
+	padding: 10px 0px;
+	box-sizing: border-box;	
+}
+h2
+{
+	padding: 10px 0;
+	font-size: 25px;
+	color: #000000;
+	text-transform: uppercase;
+}
+h2
+{
+	margin: 10px 0;
+	color: black;
+	font-size: 16px;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+.border
+{
+	height: 2px;
+	width: 30px;
+	background: #ff9800;
+}
+ul
+{
+	list-style: none;
+	color: #000000;
+	font-size: 15px;
+	letter-spacing: 0.5px;	
+}
+ul a
+{
+	text-decoration: none;
+	outline: none;
+	color: #000000;
+	transition: 0.3s; 
+}
+ul a:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
+ul li
+{
+	margin: 10px 0;
+	height: 20px;
+}
+
+ul li a:hover{
+
+	color: #ff9800;
+}
+
+.footer-bottom
+{
+	padding: 10px;
+	background: #000000;
+	color: #ffff;
+	font-size: 13px;
+	text-align: center;
+}
+.dropbtn {
+  background-color: #F5B193;
+  color: black;
+  padding: 7px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+/*  background-color: #f1f1f1;*/
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {text-decoration: underline; color: #4B4b4D}
+.nav-link:hover{text-decoration: underline; color: #4B4b4D}
+
+.glow {
+  font-size: 50px;
+  color: #4B4b4D;
+  text-align: center;
+  -webkit-animation: glow 0.2s ease-in-out infinite alternate;
+  -moz-animation: glow 0.2s ease-in-out infinite alternate;
+  animation: glow 0.2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff;
+  }
+  
+  to {
+    text-shadow: 0 0 30px #F5B193, 0 0 40px #F5B193, 0 0 50px #F5B193, 0 0 60px #F5B193, 0 0 70px #F5B193, 0 0 80px #F5B193, 0 0 90px #F5B193;
+  }
+}

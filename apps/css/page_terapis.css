@@ -1,0 +1,105 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: white;
+  font-family: 'Century Gothic';
+}
+.wrapper{
+  margin-top: 5%;
+}
+
+.wrapper h1{
+  font-family: 'Century Gothic';
+  font-size: 40px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member{
+  background: #F5B193;
+  margin: 15px;
+  margin-bottom: 50px;
+  width: 330px;
+  padding: 20px;
+  line-height: 20px;
+  color: 0000;  
+  position: relative;
+}
+
+.team .team_member h3{
+  color: #000;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.team .team_member .team_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #F5B193;
+}
+
+.team .team_member .team_img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+.team .team_member .social li a.fb {
+  background: url('.../img/facebook s.png') no-repeat 0px 4px;  
+    padding: 10px 0 12px 52px;
+}
+.footer.team_member .social li a.fb1 {
+  background: url('.../img/instagram s.png') no-repeat 0px 4px;
+    padding: 10px 0 12px 52px;
+}
+.footer.team_member .social li a.fb2 {
+    background: url('.../img/twitter s.png') no-repeat 0px 4px;
+    padding: 10px 0 12px 52px;
+}
+.pagination {
+  padding-left: 500px;
+  padding-bottom: 50px;
+  /*display: inline-block;*/
+}
+
+.pagination a {
+  padding-left: 50px;
+  color: black;
+  float: left;
+  padding: 10px 18px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #F5B193;
+  color: black;
+  border-radius: 100px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #F5B193;
+  color: black;
+  border-radius: 100px;
+}
+.pagination a.notactive {
+  background-color: #000;
+  color: #F5B193;
+  border-radius: 50px;
+}

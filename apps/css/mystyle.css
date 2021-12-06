@@ -1,0 +1,29 @@
+		h2 {
+			text-align:center; 
+			color:red; 
+			background-color: blue;
+		}
+
+		/*tag selector*/
+		p {
+			font-weight: bold;
+		}
+
+		/*Class selector*/
+		.miring {
+			font-style:italic;
+		}
+
+		.kanan {
+			text-align: right;
+		}
+
+		.kiri {
+			text-align: left;
+		}
+
+		/*id selector*/
+		#warna {
+			color:green;
+		}
+
